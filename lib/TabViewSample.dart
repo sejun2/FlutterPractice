@@ -35,7 +35,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State {
-  var _text = 'Hello';
   final items = List.generate(100, (index) => index).toList();
 
   @override
@@ -50,7 +49,6 @@ class _MyHomePageState extends State {
                     Tab(text: 'TAB1'),
                     Tab(text: 'TAB2'),
                     Tab(text: 'TAB1'),
-
                   ]
               ),
             ),
